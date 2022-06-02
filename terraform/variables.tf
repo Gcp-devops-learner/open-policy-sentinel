@@ -36,11 +36,13 @@
 variable "project_id" {
   description = "Project ID where all this will be steup ."
   type        = string
+  default     = ""
 }
 
 variable "network_name" {
   description = "The name of the network being created"
   type        = string
+  default     = ""
 }
 
 variable "routing_mode" {
@@ -52,6 +54,7 @@ variable "routing_mode" {
 variable "subnets" {
   description = "The list of subnets being created"
   type        = list(map(string))
+  default     = []
 }
 
 variable "secondary_ranges" {
