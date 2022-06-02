@@ -140,8 +140,8 @@ variable "compute_engine_sa_desc" {
   default     = ""
 }
 
-variable "gcp_credentials" {
-  type = string
-  sensitive = true
-  description = "Google Cloud service account credentials"
-}
+# variable "gcp_credentials" {
+#   type = string
+#   sensitive = true
+#   description = "Google Cloud service account credentials"
+# }
