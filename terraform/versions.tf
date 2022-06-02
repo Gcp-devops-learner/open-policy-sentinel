@@ -3,9 +3,6 @@ provider "google" {
   credentials = var.gcp-creds
 }
 
-variable "gcp-creds" {
-default= ""
-}
 
 terraform {
   required_providers {
