@@ -1,6 +1,5 @@
 provider "google" {
   project     = "pentagon-324205"
-  credentials = var.gcp-creds
 }
 
 
