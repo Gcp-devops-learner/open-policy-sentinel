@@ -139,7 +139,3 @@ variable "compute_engine_sa_desc" {
   type        = string
   default     = ""
 }
-
-variable "gcp-creds" {
-default= ""
-}
