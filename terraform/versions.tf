@@ -1,7 +1,3 @@
-provider "google" {
-  project     = "pentagon-324205"
-}
-
 
 terraform {
   required_providers {
