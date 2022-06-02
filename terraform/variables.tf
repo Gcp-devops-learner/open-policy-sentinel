@@ -54,7 +54,6 @@ variable "routing_mode" {
 variable "subnets" {
   description = "The list of subnets being created"
   type        = list(map(string))
-  default     = []
 }
 
 variable "secondary_ranges" {
